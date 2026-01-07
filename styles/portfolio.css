@@ -23,6 +23,24 @@
     cursor: pointer;
 }
 
+.section-heading {
+    max-width: 827px;
+    text-align: center;
+}
+
+.section-heading h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color:#181818
+}
+
+.section-heading p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+
 /*----------------------------------------------*/
 /*Main styles */
 header {
@@ -45,7 +63,7 @@ header {
 nav {
     width: 71%;
     max-width: 1140px;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -103,3 +121,35 @@ nav .menu a {
     vertical-align: middle;
 }
 
+#about {
+    padding-top: 130px ;
+}
+
+#about .about-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff8f3;
+    padding: 131px 156px;
+}
+
+#about .about-container .about-info {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#about .about-container .info-card p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+}
+
+#about .about-container .info-card h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+}
+
+    
